@@ -168,6 +168,11 @@ img {
   vertical-align: middle;
   border-style: none; }
 
+.img-logo {
+  vertical-align: middle;
+  padding: 0.2rem 0.884rem;
+  border-style: none; }
+
 svg {
   overflow: hidden;
   vertical-align: middle; }
@@ -8229,12 +8234,15 @@ h1, h2, h3, h4, h5,
       font-size: 20px; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  background: #0d1128 !important;
   z-index: 3;
   padding: 0; }
   .ftco-navbar-light .container {
-    background: #0d1128;
-    width: 1110px; }
+    background: transparent;
+    width: auto;
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #0d1128 !important;
