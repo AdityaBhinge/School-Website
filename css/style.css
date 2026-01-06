@@ -170,7 +170,6 @@ img {
 
 .img-logo {
   vertical-align: middle;
-  padding: 0.2rem 0.884rem;
   border-style: none; }
 
 svg {
@@ -9882,3 +9881,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Responsive Google Map embed */
+.map-responsive { overflow:hidden; padding-bottom:56.25%; position:relative; height:0; }
+.map-responsive iframe { left:0; top:0; height:100%; width:100%; position:absolute; border:0; }
